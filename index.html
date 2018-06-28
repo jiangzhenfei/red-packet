@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+			margin: 0;
+			padding: 0;
+		}
+		html,body{
+			height: 100%;
+		}
+		#container{
+			height: 100%;
+			background:#000;
+            position: relative;
+			overflow: hidden;
+		}
+		.packet{
+			position: absolute;
+			width:50px;
+			height: 100px;
+			background: red;
+		}
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+
+    <script src="./packet.js"></script>
+</body>
+</html>
