@@ -1,4 +1,4 @@
-# red-packet
+# red-packet（红包雨插件）
 
 ### 兼容性
 #### PC端 手机存在bug，IE8以上
